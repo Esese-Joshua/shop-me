@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/sign_up" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/men" element={<Men />} />
@@ -28,3 +28,4 @@ function App() {
 }
 
 export default App;
+

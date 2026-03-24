@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaInstagram, FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 

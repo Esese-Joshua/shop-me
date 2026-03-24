@@ -17,7 +17,7 @@ function Login() {
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({ ...formData, [e.target.email]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
@@ -106,7 +106,7 @@ function Login() {
                     <a href="/sign_up" className="text-link">
                         Join Us
                     </a>
-                  </p>
+                </p>
 
         </form>
         
